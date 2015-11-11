@@ -1,0 +1,70 @@
+/* 
+    Created on : 10/11/2015, 19:32:11
+    Author     : O prof
+*/
+*{margin:0; padding: 0;}/*reset*/
+body{
+    background-color: #272822;
+    color: rgb(230,219,116);
+}
+h1{color: rgb(253,151,31);}
+header{
+    background-color: rgb(248,248,248);
+    color: #272822;
+    text-align: center;
+    padding: 40px 0;/*Centraliza na vertical*/
+    position: fixed;
+    width: 100%; /*responsivo*/
+    top: 0;
+}
+section{
+    margin-top: 100px;
+    padding: 20px;
+    background-color: deepskyblue;
+    position: relative;
+    z-index: -2;
+}
+
+footer{
+    width: 140px; 
+    padding: 75px 0;
+    padding-left: 10px;
+    background-color: whitesmoke;
+    color:#272822;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px; right: 10px;
+    box-shadow: 0 0 25px #272822 inset;
+}
+
+/*Classe*/
+.qdo{
+    border: 1px solid black;
+    width: 100px; height: 100px;
+    position: absolute;
+    margin: 20px;
+}
+
+.final{clear: both;}
+
+/*Identificadores - ID*/
+#absrel{
+    background-color: deeppink;
+    width: 500px; height: 500px;
+    position: relative;
+    /*Joga para trás*/
+    z-index: -1;
+    /*Centraliza a div*/
+    display: block;
+    margin: 0 auto;
+}
+
+#quadrado1{background-color: red;
+           bottom: 20px; right: 50px;
+}
+#quadrado2{background-color: green;
+           top: 100px; left: 100px;
+}
+#quadrado3{background-color: blue;
+           top: 150px; left: 150px;
+}
